@@ -1,10 +1,12 @@
-import { Benefit } from "@/components/component/benefit";
+import { Problem } from "@/components/component/problem";
 import { Footer } from "@/components/component/footer";
 import { Header } from "@/components/component/header";
 import { Hero } from "@/components/component/hero";
 import { Testimonial } from "@/components/component/testimonial";
 import { Tutorial } from "@/components/component/tutorial";
 import { Video } from "@/components/component/video";
+import { TryHeader } from "@/components/component/header";
+import { Program } from "@/components/component/program";
 
 export default function Home() {
 	return (
@@ -13,9 +15,10 @@ export default function Home() {
 				<Header />
 				<main className="flex-1">
 					<Hero />
-					<Benefit />
+					<Problem />
+					<Program />
 					<Tutorial />
-					<Video />
+					{/* <Video /> */}
 					<Testimonial />
 				</main>
 				<Footer />

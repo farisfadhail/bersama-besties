@@ -4,12 +4,14 @@ import { CheckIcon } from "lucide-react";
 
 export function Tutorial() {
 	return (
-		<section id="tutorial" className="w-full py-12 md:py-24 lg:py-32">
+		<section id="tutorial" className="w-full py-6 md:py-6 lg:py-12">
 			<div className="container px-4 md:px-6">
 				<div className="flex flex-col items-center justify-center space-y-4 text-center">
 					<div className="space-y-2">
-						<div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Tutorial</div>
-						<h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">How to Use Cow Dung Fertilizer</h2>
+						<div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm" style={{ color: "#719D2A" }}>
+							Tutorial
+						</div>
+						<h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Langkah Pembuatan</h2>
 						<p className="max-w-[600px] mx-auto text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
 							Follow our step-by-step guide to properly prepare and apply cow dung fertilizer for maximum benefits in your garden.
 						</p>

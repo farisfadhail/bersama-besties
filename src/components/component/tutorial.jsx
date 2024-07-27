@@ -134,7 +134,7 @@ export function Tutorial() {
 									<li data-aos="fade-up">• Suhu : lebih rendah dari suhu ruang (lebih dingin dibanding suhu ruang)</li>
 								</ul>
 							</div>
-							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(heroImage)}>
+							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(heroImage)} data-aos="fade-up">
 								<Image src={heroImage} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} />
 								<span className="text-muted-foreground">Photo 7</span>
 							</div>

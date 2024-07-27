@@ -16,11 +16,9 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en" className="scroll-smooth" style={{ scrollBehavior: "smooth" }}>
 			<body className={inter.className} style={{ fontFamily: "poppins" }}>
-				<SpeedInsights>
-					<Analytics>
-						<AOSProvider>{children}</AOSProvider>
-					</Analytics>
-				</SpeedInsights>
+				<AOSProvider>{children}</AOSProvider>
+				<SpeedInsights />
+				<Analytics />
 			</body>
 		</html>
 	);

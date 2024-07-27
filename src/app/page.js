@@ -7,6 +7,7 @@ import { Tutorial } from "@/components/component/tutorial";
 import { Video } from "@/components/component/video";
 import { TryHeader } from "@/components/component/header";
 import { Program } from "@/components/component/program";
+import { Impact } from "@/components/component/impact";
 
 export default function Home() {
 	return (
@@ -16,9 +17,9 @@ export default function Home() {
 				<main className="flex-1">
 					<Hero />
 					<Problem />
+					<Impact />
 					<Program />
 					<Tutorial />
-					{/* <Video /> */}
 					<Testimonial />
 				</main>
 				<Footer />

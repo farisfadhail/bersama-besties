@@ -6,7 +6,7 @@ import logoKKN from "../../../public/logo.png";
 
 export function Header() {
 	return (
-		<header className="px-4 lg:px-8 h-16 flex items-center fixed top-0 left-0 right-0 backdrop-blur-sm z-10 transition-all duration-300">
+		<header className="px-4 lg:px-8 h-16 flex items-center fixed top-0 left-0 right-0 bg-white md:bg-transparent md:backdrop-blur-sm z-10 transition-all duration-300">
 			{/* <header className="bg-white shadow-sm backdrop-blur-sm z-10 transition-all duration-300"> */}
 			<div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
 				<Link href="#beranda" className="flex items-center" prefetch={false}>
@@ -17,7 +17,7 @@ export function Header() {
 						Beranda
 					</Link>
 					<Link href="#problem" className="text-sm font-medium text-primary hover:text-[#719D2A] transition-colors" prefetch={false}>
-						Problem
+						Informasi
 					</Link>
 					<Link href="#program" className="text-sm font-medium text-primary hover:text-[#719D2A] transition-colors" prefetch={false}>
 						Program

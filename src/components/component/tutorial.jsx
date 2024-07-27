@@ -4,13 +4,6 @@ import { Dialog, DialogContent } from "@/components/ui/dialog";
 import Image from "next/image";
 import heroImage from "../../../public/hero.png";
 
-const data = [
-	{
-		title: "",
-		description: "",
-	},
-];
-
 export function Tutorial() {
 	const [isModalOpen, setIsModalOpen] = useState(false);
 	const [selectedPhoto, setSelectedPhoto] = useState(null);

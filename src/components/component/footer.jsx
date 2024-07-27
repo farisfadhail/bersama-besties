@@ -7,7 +7,7 @@ export function Footer() {
 			<nav className="sm:ml-auto md:flex gap-4 sm:gap-6 justify-center hidden">
 				<div className="flex space-x-4 items-center">
 					<Link href="#problem" className="text-xs hover:underline underline-offset-4" prefetch={false}>
-						Problem
+						Informasi
 					</Link>
 					<Link href="#program" className="text-xs hover:underline underline-offset-4" prefetch={false}>
 						Program

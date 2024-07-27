@@ -51,7 +51,7 @@ export function Testimonial() {
 					</div>
 				</div>
 				<div className="col-span-1"></div>
-				<div className=" py-12 flex items-center justify-center col-span-8">
+				<div className=" py-12 flex items-center justify-center col-span-8" data-aos="fade-up">
 					<Carousel plugins={[Autoplay({ delay: 3000 })]} opts={{ align: "start", loop: true }} className="w-full">
 						<CarouselContent>
 							<CarouselItem className="sm:basis-1/2 md:basis-1/3">

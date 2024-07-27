@@ -19,6 +19,9 @@ export function Header() {
 					<Link href="#problem" className="text-sm font-medium text-primary hover:text-[#719D2A] transition-colors" prefetch={false}>
 						Problem
 					</Link>
+					<Link href="#program" className="text-sm font-medium text-primary hover:text-[#719D2A] transition-colors" prefetch={false}>
+						Program
+					</Link>
 					<Link href="#tutorial" className="text-sm font-medium text-primary hover:text-[#719D2A] transition-colors" prefetch={false}>
 						Tutorial
 					</Link>
@@ -36,21 +39,23 @@ export function Header() {
 					<SheetContent side="left">
 						<div className="flex flex-col space-y-4 p-4">
 							<Link href="#" className="flex items-center text-lg font-medium text-primary" prefetch={false}>
-								<MountainIcon className="h-6 w-6 text-primary" />
-								<span className="ml-2">Acme Inc</span>
+								<Image src={logoKKN} alt="Logo KKN UMD 144 Desa Sumber Salam" className="mb-4" />
 							</Link>
-							<nav className="space-y-2">
-								<Link href="#" className="block text-sm font-medium text-muted-foreground hover:text-primary transition-colors" prefetch={false}>
-									Home
+							<nav className="space-y-4">
+								<Link href="#beranda" className="block text-sm font-medium text-muted-foreground hover:text-primary transition-colors" prefetch={false}>
+									Beranda
 								</Link>
-								<Link href="#" className="block text-sm font-medium text-muted-foreground hover:text-primary transition-colors" prefetch={false}>
-									About
+								<Link href="#problem" className="block text-sm font-medium text-muted-foreground hover:text-primary transition-colors" prefetch={false}>
+									Problem
 								</Link>
-								<Link href="#" className="block text-sm font-medium text-muted-foreground hover:text-primary transition-colors" prefetch={false}>
-									Services
+								<Link href="#program" className="block text-sm font-medium text-muted-foreground hover:text-primary transition-colors" prefetch={false}>
+									Program
 								</Link>
-								<Link href="#" className="block text-sm font-medium text-muted-foreground hover:text-primary transition-colors" prefetch={false}>
-									Contact
+								<Link href="#tutorial" className="block text-sm font-medium text-muted-foreground hover:text-primary transition-colors" prefetch={false}>
+									Tutorial
+								</Link>
+								<Link href="#testimonial" className="block text-sm font-medium text-muted-foreground hover:text-primary transition-colors" prefetch={false}>
+									Testimonial
 								</Link>
 							</nav>
 						</div>

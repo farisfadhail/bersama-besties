@@ -111,11 +111,11 @@ export function Impact() {
 						</ul>
 					</div>
 				</div>
-				<div className="flex justify-end">
+				<div className="flex justify-end mb-6">
 					<div
 						data-aos="fade-up"
 						data-aos-duration="500"
-						className="inline-flex h-12 items-center justify-center rounded-md bg-[#719D2A] px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-[#719D2A]/80 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 cursor-pointer"
+						className="inline-flex h-10 md:h-12 items-center justify-center rounded-md bg-[#719D2A] px-6 md:px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-[#719D2A]/80 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 cursor-pointer"
 						onClick={() => handleOpenModal()}
 					>
 						Baca lebih lanjut
@@ -124,39 +124,39 @@ export function Impact() {
 			</div>
 			{isModalOpen && (
 				<Dialog open={isModalOpen} onOpenChange={handleModalClose}>
-					<DialogContent className="max-w-[75vw] max-h-[75vh] overflow-auto backdrop-blur-sm">
+					<DialogContent className="max-w-[80vw] max-h-[80vh] overflow-auto backdrop-blur-sm">
 						<div>
 							<div className="w-full bg-[#719D2A] h-20 mt-6 flex items-center">
 								<h1 className="ms-8 text-white font-semibold text-lg">Pupuk Non-Organik</h1>
 							</div>
 							<ul>
 								<li>
-									<div className="ms-8 mt-4">
+									<div className="md:ms-8 mt-4">
 										<h3 className="text-base font-bold">Dampak Positif :</h3>
-										<ul className="text-muted-foreground text-sm mt-1 ms-6 space-y-1" data-aos-duration="600">
-											<li>• Efek cepat</li>
-											<li>Pupuk non-organik memberikan efek yang cepat dalam meningkatkan pertumbuhan tanaman.</li>
-											<li>• Kandungan nutrisi yang terukur</li>
-											<li>Kandungan nutrisi dalam pupuk non-organik dapat ditentukan secara akurat, sehingga memudahkan dalam pemberian dosis.</li>
-											<li>• Mudah digunakan</li>
-											<li>Pupuk non-organik mudah diaplikasikan dan tersedia dalam berbagai bentuk.</li>
+										<ul className="text-muted-foreground text-sm mt-1 md:ms-6 space-y-2 md:space-y-1" data-aos-duration="600">
+											<li className="text-black">• Efek cepat</li>
+											<li className="ms-6">Pupuk non-organik memberikan efek yang cepat dalam meningkatkan pertumbuhan tanaman.</li>
+											<li className="text-black">• Kandungan nutrisi yang terukur</li>
+											<li className="ms-6">Kandungan nutrisi dalam pupuk non-organik dapat ditentukan secara akurat, sehingga memudahkan dalam pemberian dosis.</li>
+											<li className="text-black">• Mudah digunakan</li>
+											<li className="ms-6">Pupuk non-organik mudah diaplikasikan dan tersedia dalam berbagai bentuk.</li>
 										</ul>
 									</div>
 								</li>
 								<li>
-									<div className="ms-8 mt-4">
+									<div className="md:ms-8 mt-4">
 										<h3 className="text-base font-bold">Dampak Negatif :</h3>
-										<ul className="text-muted-foreground text-sm mt-1 ms-6 space-y-0.5" data-aos-duration="600">
-											<li>• Mencemari lingkungan</li>
-											<li>Penggunaan pupuk non-organik secara berlebihan dapat menyebabkan pencemaran tanah, air, dan udara.</li>
-											<li>• Membunuh mikroorganisme tanah</li>
-											<li>Bahan kimia dalam pupuk non-organik dapat membunuh mikroorganisme tanah yang bermanfaat.</li>
-											<li>• Meningkatkan keasaman tanah</li>
-											<li>Penggunaan pupuk non-organik dalam jangka panjang dapat menyebabkan tanah menjadi masam.</li>
-											<li>• Meningkatkan resistensi hama dan penyakit</li>
-											<li>Penggunaan pestisida yang seringkali dikombinasikan dengan pupuk non-organik dapat menyebabkan hama dan penyakit menjadi resisten terhadap pestisida.</li>
-											<li>• Membuat tanah menjadi keras</li>
-											<li>Penggunaan pupuk non-organik dalam jangka panjang dapat membuat struktur tanah menjadi keras dan mengurangi kemampuannya dalam menahan air.</li>
+										<ul className="text-muted-foreground text-sm mt-1 md:ms-6 space-y-2 md:space-y-1" data-aos-duration="600">
+											<li className="text-black">• Mencemari lingkungan</li>
+											<li className="ms-6">Penggunaan pupuk non-organik secara berlebihan dapat menyebabkan pencemaran tanah, air, dan udara.</li>
+											<li className="text-black">• Membunuh mikroorganisme tanah</li>
+											<li className="ms-6">Bahan kimia dalam pupuk non-organik dapat membunuh mikroorganisme tanah yang bermanfaat.</li>
+											<li className="text-black">• Meningkatkan keasaman tanah</li>
+											<li className="ms-6">Penggunaan pupuk non-organik dalam jangka panjang dapat menyebabkan tanah menjadi masam.</li>
+											<li className="text-black">• Meningkatkan resistensi hama dan penyakit</li>
+											<li className="ms-6">Penggunaan pestisida yang seringkali dikombinasikan dengan pupuk non-organik dapat menyebabkan hama dan penyakit menjadi resisten terhadap pestisida.</li>
+											<li className="text-black">• Membuat tanah menjadi keras</li>
+											<li className="ms-6">Penggunaan pupuk non-organik dalam jangka panjang dapat membuat struktur tanah menjadi keras dan mengurangi kemampuannya dalam menahan air.</li>
 										</ul>
 									</div>
 								</li>
@@ -168,33 +168,33 @@ export function Impact() {
 							</div>
 							<ul>
 								<li>
-									<div className="ms-8 mt-4">
+									<div className="md:ms-8 mt-4">
 										<h3 className="text-base font-bold">Dampak Positif :</h3>
-										<ul className="text-muted-foreground text-sm mt-1 ms-6 space-y-1" data-aos-duration="600">
-											<li>• Meningkatkan kualitas tanah & kesuburan tanah</li>
-											<li>
+										<ul className="text-muted-foreground text-sm mt-1 md:ms-6 space-y-2 md:space-y-1" data-aos-duration="600">
+											<li className="text-black">• Meningkatkan kualitas tanah & kesuburan tanah</li>
+											<li className="ms-6">
 												Pupuk organik membantu memperbaiki struktur tanah, meningkatkan kapasitas menahan air, dan meningkatkan aktivitas mikroorganisme tanah yang bermanfaat. Pupuk organik menyediakan nutrisi secara
 												perlahan dan berkelanjutan, sehingga tanaman dapat menyerap nutrisi secara optimal.
 											</li>
-											<li>• Ramah lingkungan & Meningkatkan produksi tanaman</li>
-											<li>dan kesehatan manusia. Dalam jangka panjang, penggunaan pupuk organik dapat meningkatkan produktivitas tanaman dan kualitas hasil panen.</li>
-											<li>• Mencegah erosi</li>
-											<li>Penggunaan pupuk organik membantu menjaga kestabilan tanah dan mengurangi risiko erosi.</li>
+											<li className="text-black">• Ramah lingkungan & Meningkatkan produksi tanaman</li>
+											<li className="ms-6">dan kesehatan manusia. Dalam jangka panjang, penggunaan pupuk organik dapat meningkatkan produktivitas tanaman dan kualitas hasil panen.</li>
+											<li className="text-black">• Mencegah erosi</li>
+											<li className="ms-6">Penggunaan pupuk organik membantu menjaga kestabilan tanah dan mengurangi risiko erosi.</li>
 										</ul>
 									</div>
 								</li>
 								<li>
-									<div className="ms-8 mt-4">
+									<div className="md:ms-8 mt-4">
 										<h3 className="text-base font-bold">Dampak Negatif :</h3>
-										<ul className="text-muted-foreground text-sm mt-1 ms-6 space-y-0.5" data-aos-duration="600">
-											<li>• Ketersedian yang terbatas</li>
-											<li>Sumber bahan baku pupuk organik seringkali terbatas dan \ harganya cenderung lebih mahal dibandingkan pupuk non- organik.</li>
-											<li>• Kandungan nutrisi yang bervariasi</li>
-											<li>Kandungan nutrisi dalam pupuk organik dapat bervariasi tergantung pada bahan bakunya, sehingga sulit untuk menentukan dosis yang tepat.</li>
-											<li>• Waktu yang dibutuhkan lebih lama</li>
-											<li>Efektivitas pupuk organik dalam meningkatkan kesuburan tanah membutuhkan waktu yang lebih lama dibandingkan pupuk non organik.</li>
-											<li>• Rentan terhadap hama dan penyakit</li>
-											<li>Tanaman yang dipupuk dengan pupuk organik mungkin lebih rentan terhadap serangan hama dan penyakit karena tidak memiliki perlindungan tambahan dari bahan kimia</li>
+										<ul className="text-muted-foreground text-sm mt-1 md:ms-6 space-y-2 md:space-y-1" data-aos-duration="600">
+											<li className="text-black">• Ketersedian yang terbatas</li>
+											<li className="ms-6">Sumber bahan baku pupuk organik seringkali terbatas dan \ harganya cenderung lebih mahal dibandingkan pupuk non- organik.</li>
+											<li className="text-black">• Kandungan nutrisi yang bervariasi</li>
+											<li className="ms-6">Kandungan nutrisi dalam pupuk organik dapat bervariasi tergantung pada bahan bakunya, sehingga sulit untuk menentukan dosis yang tepat.</li>
+											<li className="text-black">• Waktu yang dibutuhkan lebih lama</li>
+											<li className="ms-6">Efektivitas pupuk organik dalam meningkatkan kesuburan tanah membutuhkan waktu yang lebih lama dibandingkan pupuk non organik.</li>
+											<li className="text-black">• Rentan terhadap hama dan penyakit</li>
+											<li className="ms-6">Tanaman yang dipupuk dengan pupuk organik mungkin lebih rentan terhadap serangan hama dan penyakit karena tidak memiliki perlindungan tambahan dari bahan kimia</li>
 										</ul>
 									</div>
 								</li>

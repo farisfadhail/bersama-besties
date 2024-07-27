@@ -46,7 +46,7 @@ export function Header() {
 									Beranda
 								</Link>
 								<Link href="#problem" className="block text-sm font-medium text-muted-foreground hover:text-primary transition-colors" prefetch={false}>
-									Problem
+									Informasi
 								</Link>
 								<Link href="#program" className="block text-sm font-medium text-muted-foreground hover:text-primary transition-colors" prefetch={false}>
 									Program

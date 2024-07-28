@@ -16,7 +16,7 @@ export function Impact() {
 	};
 
 	return (
-		<section id="impact" className="w-full md:py-6 lg:py-8">
+		<section id="impact" className="w-full md:py-4 lg:py-6">
 			<div className="container px-4 md:px-6" data-aos="fade-up">
 				<div className="flex flex-col items-center justify-center space-y-4 text-center">
 					<div className="space-y-2">
@@ -115,7 +115,7 @@ export function Impact() {
 					<div
 						data-aos="fade-up"
 						data-aos-duration="500"
-						className="inline-flex h-10 md:h-12 items-center justify-center rounded-md bg-[#719D2A] px-6 md:px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-[#719D2A]/80 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 cursor-pointer"
+						className="inline-flex h-10 md:h-12 md:mr-9 items-center justify-center rounded-md bg-[#719D2A] px-6 md:px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-[#719D2A]/80 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 cursor-pointer"
 						onClick={() => handleOpenModal()}
 					>
 						Baca lebih lanjut

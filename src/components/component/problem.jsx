@@ -22,8 +22,8 @@ export function Problem() {
 						</p>
 					</div>
 				</div>
-				<div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
-					<div className="flex flex-col justify-center space-y-4">
+				<div className="mx-auto flex flex-col md:flex-row max-w-7xl items-center gap-6 py-8 ">
+					<div className="flex flex-col justify-center space-y-4 md:pr-16">
 						<ul className="grid gap-4">
 							<li className="flex items-start gap-2" data-aos="fade-up">
 								<CheckIcon className="h-10 w-10" style={{ color: "#719D2A" }} />
@@ -61,7 +61,9 @@ export function Problem() {
 							</li>
 						</ul>
 					</div>
-					<Image src={problemImage} data-aos="fade-up" data-aos-duration="400" alt="Problem of Cow Dung" className="mx-auto overflow-hidden rounded-xl object-cover sm:w-full" />
+					<div className="md:w-9/12 my-2">
+						<Image src={problemImage} data-aos="fade-up" data-aos-duration="400" alt="Problem of Cow Dung" className="mx-auto overflow-hidden rounded-xl object-cover sm:w-full" />
+					</div>
 				</div>
 			</div>
 		</section>

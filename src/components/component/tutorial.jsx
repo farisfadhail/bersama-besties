@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import Image from "next/image";
-import heroImage from "../../../public/hero.png";
 import dekomposer from "../../../public/persiapan_larutan_dekomposer.jpg";
 import bahan from "../../../public/persiapan_bahan.jpg";
 import pencampuran from "../../../public/pencampuran.jpg";

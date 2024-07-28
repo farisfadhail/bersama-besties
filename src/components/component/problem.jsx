@@ -32,7 +32,7 @@ export function Problem() {
 										Pembuangan Limbah Kotoran Sapi
 									</h3>
 									<p className="text-muted-foreground text-sm mt-1" data-aos="fade-up" data-aos-duration="600">
-										Mayoritas masyarakat masih membuang limbah kotoran sapi ke dalam selokan, hal tersebut menyebabkan terjadinya pencemaran lingkungan utamanya pada sumber air bersih.{" "}
+										Mayoritas masyarakat masih membuang limbah kotoran sapi ke dalam sungai dan selokan, hal tersebut menyebabkan terjadinya pencemaran lingkungan utamanya pada pencemaran air.{" "}
 									</p>
 								</div>
 							</li>

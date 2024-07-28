@@ -27,8 +27,8 @@ export function Tutorial() {
 							Langkah Pembuatan
 						</h2>
 						<p className="max-w-[1000px] mx-auto text-muted-foreground md:text-sm/relaxed lg:text-xs/relaxed xl:text-base/relaxed" data-aos="fade-up">
-							Pemanfaatan kotoran sapi menjadi pupuk organik dapat dibuat dalam waktu 7 hari, untuk membuat pupuk organik memerlukan alat gembor, cangkul, parang, sendok dan bahan biokompos, jerami, dedak serta kotoran sapi.
-							Berikut adalah langkah pembuatannya
+							Pemanfaatan kotoran sapi menjadi pupuk organik dapat dibuat dalam waktu 7 hari, untuk membuat pupuk organik memerlukan alat gembor, cangkul, parang, karung bekas ukuran 25 kg, dan bahan dekomposer biokompos cair
+							1 tutup botol, dekomposer biokompos bubuk 3 sdm, jerami 2 karung, dedak 5kg, air 6 liter, serta kotoran sapi 2 karung. Berikut adalah langkah pembuatannya
 						</p>
 					</div>
 				</div>
@@ -40,7 +40,7 @@ export function Tutorial() {
 								Persiapan Larutan Dekomposer
 							</div>
 							<div className="text-muted-foreground" data-aos="fade-up">
-								Larutkan 1 tutup botol dan 1 sendok biokompos bubuk yang dicampur dengan 6L air.
+								Larutkan 1 tutup botol biokompos cair, 3 sendok makan biokompos bubuk dan dedak 5kg yang dicampur dengan 6 liter air.
 							</div>
 							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(heroImage)} data-aos="fade-up">
 								<Image src={heroImage} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} />
@@ -53,7 +53,7 @@ export function Tutorial() {
 								Persiapan Bahan
 							</div>
 							<div className="text-muted-foreground" data-aos="fade-up">
-								Kotoran sapi non fermentasi dan jerami yang telah dicacah halus.
+								Kotoran sapi non fermentasi 50kg dan jerami 2 karung yang telah dicacah halus. Simpan bahan pada tempat yang ternaungi.
 							</div>
 							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(heroImage)} data-aos="fade-up">
 								<Image src={heroImage} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} />
@@ -66,7 +66,7 @@ export function Tutorial() {
 								Tahap Pencampuran
 							</div>
 							<div className="text-muted-foreground" data-aos="fade-up">
-								Campurkan kotoran sapi, jerami dan dedak sambil disiram dengan larutan dekomposer.
+								Campurkan seluruh bahan yang akan digunakan kemudian dicampur dengan larutan yang telah disiapkan.
 							</div>
 							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(heroImage)} data-aos="fade-up">
 								<Image src={heroImage} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} />
@@ -76,10 +76,10 @@ export function Tutorial() {
 						<div className="grid gap-3 text-sm relative">
 							<div className="aspect-square w-5 bg-[#719D2A] absolute left-0 translate-x-[-34.5px] z-10 top-1" style={{ borderRadius: 9999 }} />
 							<div className="font-medium text-lg" data-aos="fade-up">
-								Routing and Navigation
+								Tahap Pendiaman
 							</div>
 							<div className="text-muted-foreground" data-aos="fade-up">
-								Explore how to set up client-side routing in a React application using React Router.
+								Setelah semua bahan tercampur, tutup dengan karung bekas agar tetap lembab.
 							</div>
 							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(heroImage)} data-aos="fade-up">
 								<Image src={heroImage} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} />
@@ -89,28 +89,14 @@ export function Tutorial() {
 						<div className="grid gap-3 text-sm relative">
 							<div className="aspect-square w-5 bg-[#719D2A] absolute left-0 translate-x-[-34.5px] z-10 top-1" style={{ borderRadius: 9999 }} />
 							<div className="font-medium text-lg" data-aos="fade-up">
-								Tahap Pendiaman
-							</div>
-							<div className="text-muted-foreground" data-aos="fade-up">
-								Setelah semua bahan tercampur, tutup dengan karung agar tetap lembab.
-							</div>
-							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(heroImage)} data-aos="fade-up">
-								<Image src={heroImage} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} />
-								<span className="text-muted-foreground">Photo 5</span>
-							</div>
-						</div>
-						<div className="grid gap-3 text-sm relative">
-							<div className="aspect-square w-5 bg-[#719D2A] absolute left-0 translate-x-[-34.5px] z-10 top-1" style={{ borderRadius: 9999 }} />
-							<div className="font-medium text-lg" data-aos="fade-up">
 								Tahap Pembalikan
 							</div>
 							<div className="text-muted-foreground" data-aos="fade-up">
-								{" "}
 								Lakukan pembalikan selama 2 hari sekali selama 1 minggu.
 							</div>
 							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(heroImage)} data-aos="fade-up">
 								<Image src={heroImage} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} />
-								<span className="text-muted-foreground">Photo 6</span>
+								<span className="text-muted-foreground">Photo 5</span>
 							</div>
 						</div>
 						<div className="grid gap-3 text-sm relative">
@@ -129,7 +115,7 @@ export function Tutorial() {
 							</div>
 							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(heroImage)} data-aos="fade-up">
 								<Image src={heroImage} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} />
-								<span className="text-muted-foreground">Photo 7</span>
+								<span className="text-muted-foreground">Photo 6</span>
 							</div>
 						</div>
 					</div>

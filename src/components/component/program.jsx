@@ -6,8 +6,8 @@ export function Program() {
 	return (
 		<section id="program" className=" pb-20 md:pb-32">
 			<div data-aos="fade-up">
-				<div className="w-full bg-[#719D2A] grid grid-cols-1 md:grid-cols-2 my-3 md:my-6 lg:my-12 place-items-center">
-					<div className=" ms-12 my-6 md:my-8 " style={{ color: "white" }}>
+				<div className="w-full bg-[#719D2A] grid grid-cols-1 md:grid-cols-2 my-3 md:my-6 lg:my-12 place-items-center text-center md:text-left">
+					<div className="mx-12 md:ms-12 my-6 md:my-8 " style={{ color: "white" }}>
 						<h2>Tentang Program</h2>
 						<h1 className=" text-3xl font-bold">Kenalan Lebih Dekat Dengan Program Bersama Besties</h1>
 					</div>

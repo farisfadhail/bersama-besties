@@ -177,7 +177,10 @@ export function Impact() {
 												perlahan dan berkelanjutan, sehingga tanaman dapat menyerap nutrisi secara optimal.
 											</li>
 											<li className="text-black">• Ramah lingkungan & Meningkatkan produksi tanaman</li>
-											<li className="ms-6">dan kesehatan manusia. Dalam jangka panjang, penggunaan pupuk organik dapat meningkatkan produktivitas tanaman dan kualitas hasil panen.</li>
+											<li className="ms-6">
+												Pupuk organik terbuat dari bahan alami dan tidak mengandung bahan kimia berbahaya, sehingga lebih aman bagi lingkungan dan kesehatan manusia. Dalam jangka panjang, penggunaan pupuk organik
+												dapat meningkatkan produktivitas tanaman dan kualitas hasil panen.
+											</li>
 											<li className="text-black">• Mencegah erosi</li>
 											<li className="ms-6">Penggunaan pupuk organik membantu menjaga kestabilan tanah dan mengurangi risiko erosi.</li>
 										</ul>

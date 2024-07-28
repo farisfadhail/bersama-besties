@@ -3,6 +3,12 @@ import { useState } from "react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import Image from "next/image";
 import heroImage from "../../../public/hero.png";
+import dekomposer from "../../../public/persiapan_larutan_dekomposer.jpg";
+import bahan from "../../../public/persiapan_bahan.jpg";
+import pencampuran from "../../../public/pencampuran.jpg";
+import pendiaman from "../../../public/pendiaman.jpg";
+import pembalikan from "../../../public/pembalikan.jpg";
+import ujiCoba from "../../../public/uji_coba.jpg";
 
 export function Tutorial() {
 	const [isModalOpen, setIsModalOpen] = useState(false);
@@ -42,8 +48,8 @@ export function Tutorial() {
 							<div className="text-muted-foreground" data-aos="fade-up">
 								Larutkan 1 tutup botol biokompos cair, 3 sendok makan biokompos bubuk dan dedak 5kg yang dicampur dengan 6 liter air.
 							</div>
-							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(heroImage)} data-aos="fade-up">
-								<Image src={heroImage} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} />
+							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(dekomposer)} data-aos="fade-up">
+								<Image src={dekomposer} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} className="aspect-square" />
 								<span className="text-muted-foreground">Photo 1</span>
 							</div>
 						</div>
@@ -55,8 +61,8 @@ export function Tutorial() {
 							<div className="text-muted-foreground" data-aos="fade-up">
 								Kotoran sapi non fermentasi 50kg dan jerami 2 karung yang telah dicacah halus. Simpan bahan pada tempat yang ternaungi.
 							</div>
-							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(heroImage)} data-aos="fade-up">
-								<Image src={heroImage} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} />
+							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(bahan)} data-aos="fade-up">
+								<Image src={bahan} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} className="aspect-square" />
 								<span className="text-muted-foreground">Photo 2</span>
 							</div>
 						</div>
@@ -68,8 +74,8 @@ export function Tutorial() {
 							<div className="text-muted-foreground" data-aos="fade-up">
 								Campurkan seluruh bahan yang akan digunakan kemudian dicampur dengan larutan yang telah disiapkan.
 							</div>
-							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(heroImage)} data-aos="fade-up">
-								<Image src={heroImage} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} />
+							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(pencampuran)} data-aos="fade-up">
+								<Image src={pencampuran} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} className="aspect-square" />
 								<span className="text-muted-foreground">Photo 3</span>
 							</div>
 						</div>
@@ -81,8 +87,8 @@ export function Tutorial() {
 							<div className="text-muted-foreground" data-aos="fade-up">
 								Setelah semua bahan tercampur, tutup dengan karung bekas agar tetap lembab.
 							</div>
-							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(heroImage)} data-aos="fade-up">
-								<Image src={heroImage} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} />
+							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(pendiaman)} data-aos="fade-up">
+								<Image src={pendiaman} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} className="aspect-square" />
 								<span className="text-muted-foreground">Photo 4</span>
 							</div>
 						</div>
@@ -94,8 +100,8 @@ export function Tutorial() {
 							<div className="text-muted-foreground" data-aos="fade-up">
 								Lakukan pembalikan selama 2 hari sekali selama 1 minggu.
 							</div>
-							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(heroImage)} data-aos="fade-up">
-								<Image src={heroImage} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} />
+							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(pembalikan)} data-aos="fade-up">
+								<Image src={pembalikan} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} className="aspect-square" />
 								<span className="text-muted-foreground">Photo 5</span>
 							</div>
 						</div>
@@ -113,8 +119,8 @@ export function Tutorial() {
 									<li data-aos="fade-up">• Suhu : lebih rendah dari suhu ruang (lebih dingin dibanding suhu ruang)</li>
 								</ul>
 							</div>
-							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(heroImage)} data-aos="fade-up">
-								<Image src={heroImage} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} />
+							<div className="flex items-center gap-2 cursor-pointer" onClick={() => handlePhotoClick(ujiCoba)} data-aos="fade-up">
+								<Image src={ujiCoba} alt="Photo" width={80} height={80} style={{ borderRadius: 9999 }} className="aspect-square" />
 								<span className="text-muted-foreground">Photo 6</span>
 							</div>
 						</div>

@@ -51,7 +51,7 @@ export function Problem() {
 								<CheckIcon className="h-10 w-10" style={{ color: "#719D2A" }} />
 								<div>
 									<h3 className="text-base font-bold" data-aos="fade-up">
-										Kesadaran Masyarakat Untuk Mengolah Limbah Kotoran Sapi
+										Ketergantungan Masyarakat Terhadap Pupuk Non-Organik
 									</h3>
 									<p className="text-muted-foreground text-sm mt-1" data-aos="fade-up" data-aos-duration="600">
 										Intensitas penggunaan pupuk non organik yang masih tinggi di masyarakat petani Desa Sumber Salam. Hal ini disebabkan oleh ketergantungan petani terhadap pupuk non-organik untuk peningkatan hasil

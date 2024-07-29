@@ -31,7 +31,7 @@ export function Program() {
 										<h3 className="text-base font-bold" data-aos="fade-up">
 											Pengurangan Limbah Kotoran Sapi
 										</h3>
-										<p className="text-muted-foreground text-sm mt-1" data-aos="fade-up" data-aos-duration="600">
+										<p className="text-muted-foreground text-justify md:text-left text-sm mt-1" data-aos="fade-up" data-aos-duration="600">
 											Dengan memanfaatkan kotoran sapi yang ada berdampak pada berkurangnya pembuangan limbah kotoran sapi ke dalam selokan, sehingga akan mengurangi pencemaran lingkungan(air dan udara).
 										</p>
 									</div>
@@ -42,7 +42,7 @@ export function Program() {
 										<h3 className="text-base font-bold" data-aos="fade-up">
 											Meningkatnya Pengetahuan dan Kesadaran Masyarakat
 										</h3>
-										<p className="text-muted-foreground text-sm mt-1" data-aos="fade-up" data-aos-duration="600">
+										<p className="text-muted-foreground text-justify md:text-left text-sm mt-1" data-aos="fade-up" data-aos-duration="600">
 											Bersama Besties akan memberikan pengetahuan yang lebih luas kepada masyarakat, dengan pengetahuan ini diharapkan masyarakat dapat lebih mudah mengolah kotoran sapi serta peduli terhadap pencemaran
 											lingkungan akibat kotoran sapi.
 										</p>
@@ -54,7 +54,7 @@ export function Program() {
 										<h3 className="text-base font-bold" data-aos="fade-up">
 											Pengurangan Pencemaran Lingkungan
 										</h3>
-										<p className="text-muted-foreground text-sm mt-1" data-aos="fade-up" data-aos-duration="600">
+										<p className="text-muted-foreground text-justify md:text-left text-sm mt-1" data-aos="fade-up" data-aos-duration="600">
 											Pencemaran lingkungan terjadi dikarenakan kotoran sapi yang dibuang sembarang, saat kotoran sapi dapat diolah menjadi pupuk, akan berdampak baik pada pengurangan pencemaran lingkungan.
 										</p>
 									</div>
@@ -65,7 +65,7 @@ export function Program() {
 										<h3 className="text-base font-bold" data-aos="fade-up">
 											Pupuk Organik Mendukung Pertanian Berkelanjutan
 										</h3>
-										<p className="text-muted-foreground text-sm mt-1" data-aos="fade-up" data-aos-duration="600">
+										<p className="text-muted-foreground text-justify md:text-left text-sm mt-1" data-aos="fade-up" data-aos-duration="600">
 											Pemanfaatan kotoran sapi menjadi pupuk organik akan mengurangi penggunaan bahan kimia pada pertanian dan sejalan dengan pertanian berkelanjutan untuk menjaga produktivitas tanah dalam jangka
 											panjang, melestarikan lingkungan, dan memenuhi kebutuhan pangan generasi sekarang dan mendatang tanpa merusak sumber daya alam
 										</p>

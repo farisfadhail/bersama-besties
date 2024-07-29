@@ -54,7 +54,7 @@ export function Testimonial() {
 				<div className=" py-12 flex items-center justify-center col-span-8" data-aos="fade-up">
 					<Carousel plugins={[Autoplay({ delay: 3000 })]} opts={{ align: "start", loop: true }} className="w-full">
 						<CarouselContent>
-							<CarouselItem className="sm:basis-1/2 md:basis-1/3">
+							<CarouselItem className="sm:basis-1/2 md:basis-1/3 text-justify">
 								<Card className="p-4 font-poppins h-full flex flex-col justify-between">
 									<CardContent className="text-sm relative mb-2">
 										<svg
@@ -85,7 +85,7 @@ export function Testimonial() {
 									</CardHeader>
 								</Card>
 							</CarouselItem>
-							<CarouselItem className="sm:basis-1/2 md:basis-1/3">
+							<CarouselItem className="sm:basis-1/2 md:basis-1/3 text-justify">
 								<Card className="p-4 font-poppins h-full flex flex-col justify-between">
 									<CardContent className="text-sm relative mb-2">
 										<svg
@@ -116,7 +116,7 @@ export function Testimonial() {
 									</CardHeader>
 								</Card>
 							</CarouselItem>
-							<CarouselItem className="sm:basis-1/2 md:basis-1/3">
+							<CarouselItem className="sm:basis-1/2 md:basis-1/3 text-justify">
 								<Card className="p-4 font-poppins h-full flex flex-col justify-between">
 									<CardContent className="text-sm relative mb-2">
 										<svg
@@ -147,7 +147,7 @@ export function Testimonial() {
 									</CardHeader>
 								</Card>
 							</CarouselItem>
-							<CarouselItem className="sm:basis-1/2 md:basis-1/3">
+							<CarouselItem className="sm:basis-1/2 md:basis-1/3 text-justify">
 								<Card className="p-4 font-poppins h-full flex flex-col justify-between">
 									<CardContent className="text-sm relative mb-2">
 										<svg

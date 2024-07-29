@@ -31,7 +31,7 @@ export function Tutorial() {
 						<h2 className="text-3xl font-bold tracking-tighter sm:text-5xl" data-aos="fade-up">
 							Langkah Pembuatan
 						</h2>
-						<p className="max-w-[1000px] mx-auto text-muted-foreground md:text-sm/relaxed lg:text-xs/relaxed xl:text-base/relaxed" data-aos="fade-up">
+						<p className="max-w-[1000px]  text-justify md:text-center mx-auto text-muted-foreground md:text-sm/relaxed lg:text-xs/relaxed xl:text-base/relaxed" data-aos="fade-up">
 							Pemanfaatan kotoran sapi menjadi pupuk organik dapat dibuat dalam waktu 7 hari, untuk membuat pupuk organik memerlukan alat gembor, cangkul, parang, karung bekas ukuran 25 kg, dan bahan dekomposer biokompos cair
 							1 tutup botol, dekomposer biokompos bubuk 3 sdm, jerami 2 karung, dedak 5kg, air 6 liter, serta kotoran sapi 2 karung. Berikut adalah langkah pembuatannya
 						</p>

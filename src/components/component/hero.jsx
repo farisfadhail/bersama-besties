@@ -16,7 +16,7 @@ export function Hero() {
 							<h1 className="mb-4 text-2xl font-bold sm:text-4xl xl:text-5xl/none">
 								<span style={{ color: "#719D2A" }}>Selamat</span> Datang di Website Modul <span style={{ color: "#719D2A" }}>Bersama Besties</span>
 							</h1>
-							<p className="pb-8 max-w-2xl md:text-lg" data-aos="fade-right">
+							<p className="pb-8 max-w-2xl md:text-lg text-justify md:text-left" data-aos="fade-right">
 								Program &quot;Bersama Besties&quot; adalah bentuk upaya pemanfaatan kotoran sapi untuk kelestarian lingkungan. Mari kita menjaga lingkungan demi masa depan yang lebih baik!
 							</p>
 							<Link

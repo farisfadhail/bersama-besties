@@ -28,7 +28,7 @@ export function Impact() {
 						</h2>
 					</div>
 				</div>
-				<div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
+				<div className="mx-auto grid max-w-5xl gap-6 py-12 lg:grid-cols-2 lg:gap-12">
 					<div className="flex flex-col justify-center space-y-4">
 						<ul className="grid gap-4">
 							<li className="flex items-start gap-2" data-aos="fade-up">
@@ -36,7 +36,7 @@ export function Impact() {
 									<h3 className="text-base font-bold" data-aos="fade-up">
 										Pupuk Non-Organik
 									</h3>
-									<p className="text-muted-foreground text-sm mt-1" data-aos="fade-up" data-aos-duration="600">
+									<p className="text-muted-foreground text-justify md:text-left text-sm mt-1" data-aos="fade-up" data-aos-duration="600">
 										Pupuk non organik atau mineral merupakan pupuk dari senyawa non organik. Pupuk non organik merupakan pupuk yang dihasilkan dari serangkaian proses kimia atau penggunaan bahan kimia, sehingga dalam
 										penggunaannya harus tepat dosis dan terukur. Pupuk non organik mampu menyediakan hara dalam waktu relatif lebih cepat.
 									</p>
@@ -70,14 +70,14 @@ export function Impact() {
 							</li>
 						</ul>
 					</div>
-					<div className="flex flex-col justify-center space-y-4">
+					<div className="flex flex-col justify-center space-y-4 md:mb-auto">
 						<ul className="grid gap-4">
 							<li className="flex items-start gap-2" data-aos="fade-up">
 								<div>
 									<h3 className="text-base font-bold" data-aos="fade-up">
 										Pupuk Organik
 									</h3>
-									<p className="text-muted-foreground text-sm mt-1" data-aos="fade-up" data-aos-duration="600">
+									<p className="text-muted-foreground text-justify md:text-left text-sm mt-1" data-aos="fade-up" data-aos-duration="600">
 										Pupuk organik adalah jenis pupuk yang berasal dari bahan-bahan alami yang mengandung bahan organik, seperti bahan tumbuhan, hewan, atau limbah organik lainnya. Sederhananya, pupuk organik adalah pupuk
 										yang terbuat dari sisa-sisa makhluk hidup.
 									</p>
@@ -124,7 +124,7 @@ export function Impact() {
 			</div>
 			{isModalOpen && (
 				<Dialog open={isModalOpen} onOpenChange={handleModalClose}>
-					<DialogContent className="max-w-[80vw] max-h-[80vh] overflow-auto backdrop-blur-sm">
+					<DialogContent className="max-w-[80vw] max-h-[80vh] overflow-auto backdrop-blur-sm text-justify md:text-left">
 						<div>
 							<div className="w-full bg-[#719D2A] h-20 mt-6 flex items-center">
 								<h1 className="ms-8 text-white font-semibold text-lg">Pupuk Non-Organik</h1>
